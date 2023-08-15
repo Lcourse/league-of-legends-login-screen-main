@@ -119,6 +119,7 @@
     align-items: center;
 }
 
+/* estilização do checkbox */
 .input--checkbox {
     appearance: none;
     width: 20px;
