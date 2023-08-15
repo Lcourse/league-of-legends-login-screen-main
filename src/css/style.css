@@ -155,5 +155,20 @@
   justify-content: center;
   background-color: var(red);
   border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
 
+.login_button svg {
+  fill: white;
+}
+
+.login_button:disabled {
+  cursor: auto;
+  background-color: white;
+  border: 2px solid var(--light-grey);
+}
+
+.login_button:disabled svg {
+  fill: var(--grey)
 }
