@@ -28,7 +28,7 @@ inputs.forEach((input) => {
   input.addEventListener("focus", handleFocus);
 });
 inputs.forEach((input) => {
-  input.addEventListener("focusout", handleFocusout);
+  input.addEventListener("focusout", handleFocusOut);
 });
 inputs.forEach((input) => {
   input.addEventListener("input", handleChange);
