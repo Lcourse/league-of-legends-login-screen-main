@@ -88,11 +88,15 @@
 }
 
 .login_icons img {
+  width: 20px;
+}
+
+.icons_button {
     width: 33.33%;
-    display: '';
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: '';
+    height: 35px;
     border-radius: 5px;
     cursor: pointer;
     border: none;
@@ -155,6 +159,7 @@
   justify-content: center;
   background-color: var(red);
   border-radius: 20px;
+  border: none;
   cursor: pointer;
   margin-bottom: 60px;
 }
