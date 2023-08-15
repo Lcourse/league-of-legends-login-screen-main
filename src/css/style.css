@@ -102,3 +102,11 @@
 .login_icons .icons_button:nth-child(1) {
     background-color: var(--blue);
 }
+
+.login_icons .icons_button:nth-child(2) {
+    background-color: var(--light-grey);
+}
+
+.login_icons .icons_button:nth-child(3) {
+    background-color: var(--black);
+}
