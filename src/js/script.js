@@ -7,7 +7,7 @@ const handleFocus = ({ target }) => {
 
 const handleFocusout = ({ target }) => {
     const span = target.previousElementSibling
-    span.classList.add('span-active')
+    span.classList.remove('span-active')
 
 }
 
