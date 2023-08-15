@@ -19,7 +19,8 @@ const handleChange = () => {
   if(username.value && password.value.length >= 8 ) {
 
     button.removeAttribute('disabled')
-
+  } else {
+    button.setAttribute('disabled', '')
   }
 }
 
