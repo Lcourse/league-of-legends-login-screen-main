@@ -128,3 +128,13 @@
     margin-right: 8px;
     border-radius: 3px;
 }
+
+.input--checkbox:checked {
+    background-color: var(--red);
+}
+
+/* acesso ao Pseudo Elements (elemento falso), adicionado o checkec */
+.input--checkbox:checked::after {
+    content: "";
+
+}
