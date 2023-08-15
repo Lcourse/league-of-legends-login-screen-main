@@ -20,7 +20,7 @@
 }
 
 .login {
-  display: "";
+  display: flex;
   flex-direction: colum;
   align-items: center;
   justify-content: space-between;
@@ -28,6 +28,10 @@
   max-width: 500px;
   min-width: 100vh;
   padding: clamp(35px, 8%, 70px);
+}
+
+.wrapper {
+  background-color: red;
 }
 
 .login_logo {
