@@ -30,7 +30,7 @@
   justify-content: space-between;
   width: 100%;
   max-width: 500px;
-  min-width: 100vh;
+  min-height: 100vh;
   padding: clamp(35px, 8%, 70px);
 }
 
@@ -204,5 +204,7 @@
 .wallpaper {
   width: 100%;
   background-image: url('/images/wallpaper.jpg');
-  background-size: ;
+  background-size: cover;
+  background-position: center;
+  flex: 0 0 auto;
 }
